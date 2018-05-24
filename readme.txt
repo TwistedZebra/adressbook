@@ -1,0 +1,1 @@
+database informatie is te vinden in config map
