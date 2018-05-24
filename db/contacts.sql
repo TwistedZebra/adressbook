@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.0
+-- version 4.8.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 24 mei 2018 om 19:21
--- Serverversie: 10.1.26-MariaDB
--- PHP-versie: 7.1.8
+-- Gegenereerd op: 24 mei 2018 om 20:01
+-- Serverversie: 10.1.31-MariaDB
+-- PHP-versie: 7.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -40,8 +40,7 @@ CREATE TABLE `contact_data` (
 --
 
 INSERT INTO `contact_data` (`id`, `name`, `email`, `phonenumber`) VALUES
-(9, 'Amer', 'amerzahirovic@outlook.com', '638748055'),
-(10, 'jane', 'Test@test.com', '0633333333');
+(14, 'Amer Zahirovic', 'Amerzahirovic1998@gmail.com', '0638748055');
 
 --
 -- Indexen voor geëxporteerde tabellen
@@ -61,7 +60,8 @@ ALTER TABLE `contact_data`
 -- AUTO_INCREMENT voor een tabel `contact_data`
 --
 ALTER TABLE `contact_data`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
